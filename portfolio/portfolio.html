@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - HARLFAE Architects</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>HARLFAE</h1>
+                    <p>Architects & Interior Designers</p>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="services/services.html">Services</a></li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                        <li><a href="case-studies/case-studies.html">Case Studies</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="free-consultation/index.html" class="consultation-btn">
+                        <i class="fas fa-calendar"></i>
+                        Free Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Transforming spaces with architect-led design and transparent execution</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Navigation -->
+    <nav class="portfolio-nav">
+        <div class="container">
+            <div class="nav-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+                <button class="filter-btn" data-filter="budget">Budget-Friendly</button>
+            </div>
+            <div class="nav-stats">
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">₹12Cr+</span>
+                    <span class="stat-label">Client Savings</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Grid -->
+    <main class="portfolio-main">
+        <div class="container">
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="residential luxury">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://cdn.home-designing.com/wp-content/uploads/2018/11/luxury-interior-design-living-room.jpg" alt="Modern 3BHK Bangalore" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge signature">SignatureKit</div>
+                                <button class="view-project-btn" data-project="project1">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Modern 3BHK, Bangalore</h3>
+                            <p class="project-location">Whitefield, Bangalore</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    1,250 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    45 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹1.2L saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="residential luxury">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://wallpapercave.com/wp/wp11265359.jpg" alt="Luxury Penthouse Chennai" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge luxe">LuxeKit</div>
+                                <button class="view-project-btn" data-project="project2">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Luxury Penthouse, Chennai</h3>
+                            <p class="project-location">Boat Club Road, Chennai</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    2,800 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    60 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹2.8L saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="commercial budget">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://themansionatthevillages.com/wp-content/uploads/2022/10/Revision-Photo-24.jpg" alt="Boutique Café Bangalore" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge simple">SimpleKit</div>
+                                <button class="view-project-btn" data-project="project3">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Boutique Café, Bangalore</h3>
+                            <p class="project-location">Koramangala, Bangalore</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    800 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    30 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹80K saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://th.bing.com/th/id/R.177ddddf5df5b9ba014d7a0d6622097f?rik=xW3qAeOZQqbr1w&riu=http%3a%2f%2fd21corporatepark.in%2fwp-content%2fuploads%2f2019%2f08%2flocation-img.jpg&ehk=BAD5AqCKB0lql6MuRzyIFe8RM2bt2NpGHXSqTFzDkCI%3d&risl=&pid=ImgRaw&r=0" alt="Corporate Office Delhi" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge signature">SignatureKit</div>
+                                <button class="view-project-btn" data-project="project4">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Corporate Office, Delhi</h3>
+                            <p class="project-location">Connaught Place, Delhi</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    5,000 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    75 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹4.5L saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="residential luxury">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.SAyugyfxOs6iJrEmS5iqOAHaE8?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Heritage Home Mumbai" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge arch">ArchKit</div>
+                                <button class="view-project-btn" data-project="project5">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Heritage Home, Mumbai</h3>
+                            <p class="project-location">Colaba, Mumbai</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    3,200 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    90 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹3.2L saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="residential budget">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://i.pinimg.com/736x/50/1a/07/501a07b58b105d699a9d7fe006a559b6.jpg" alt="Smart Apartment Hyderabad" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-badge simple">SimpleKit</div>
+                                <button class="view-project-btn" data-project="project6">
+                                    <i class="fas fa-expand"></i>
+                                    View Project
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Apartment, Hyderabad</h3>
+                            <p class="project-location">Gachibowli, Hyderabad</p>
+                            <div class="project-meta">
+                                <span class="meta-item">
+                                    <i class="fas fa-ruler-combined"></i>
+                                    950 sq.ft
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    35 days
+                                </span>
+                                <span class="meta-item">
+                                    <i class="fas fa-rupee-sign"></i>
+                                    ₹95K saved
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn" id="loadMoreBtn">
+                    <i class="fas fa-plus"></i>
+                    Load More Projects
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio CTA -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's create something extraordinary together with transparent pricing and architect-led design.</p>
+                <div class="cta-buttons">
+                    <a href="Book-consultation/index.html" class="consultation-btn">
+                        <i class="fas fa-calendar-check"></i>
+                        Book Consultation
+                    </a>
+                    <button class="cta-btn secondary">
+                        <i class="fas fa-phone"></i>
+                        Talk to Architect
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HARLFAE</h3>
+                    <p>Revolutionizing architecture and interiors with 100% transparency and client-first services.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="../case-studies.html">Case Studies</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="../services.html#design-only">Design-Only</a></li>
+                        <li><a href="../services.html#execution">Execution Guardian</a></li>
+                        <li><a href="../services.html#premium">Premium Combo</a></li>
+                        <li><a href="../services.html#visualization">3D Visualization</a></li>
+                        <li><a href="../services.html#interior">Interior Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> hello@harlfae.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Design Street, Mumbai, Maharashtra 400001</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harlfae Architects. All rights reserved. | <a href="../privacy.html">Privacy Policy</a> | <a href="../terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
