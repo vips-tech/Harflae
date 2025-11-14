@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARLFAE Architecture | Design Excellence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./style/service.css">
+    <link href="https://fonts.cdnfonts.com/css/cabinet-grotesk" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./assests/logo.svg" alt="HARLFAE Logo">
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li> 
+                    <!-- <li><a href="case-studies/case-studies.html">Case Studies</a></li>  -->
+                    <li><a href="./consult.html" >Get Consultation</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="close-menu" id="closeMenu">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="./">About Us</a>
+        <a href="./services/service.html">Services</a>
+        <a href="./portfolio/portfolio.html">Portfolio</a>
+        <a href="#case-studies">Case Studies</a>
+        <button class="cta-button">Free Consultation</button>
+    </div>
+        
+        <section class="hero">
+            <div class="container-xl">
+                <div class="heading_1 wow animate__animated animate__fadeInUp">
+                    Architect-Led <br>
+                    Design Packages
+                </div>
+                <p class="wow animate__animated animate__fadeInUp">
+                    Your dream space — designed by India's top architects, delivered with total transparency. No hidden costs. No inflated vendor quotes. Just clear pricing, expert design, and total peace of mind.
+                </p>
+                <a href="#design-kits" class="btn_2 wow animate__animated animate__fadeInUp">Pick Your Design Kit</a>
+            </div>
+        </section>
+        
+        <section id="design-kits" class="design-kits">
+            <div class="container-xl">
+                <div class="section_heading">
+                    <div>
+                        <div class="heading_2 wow animate__animated animate__fadeInUp">
+                            Our Design <br>
+                            Kits
+                        </div>
+                    </div>
+                    <div>
+                        <p class="wow animate__animated animate__fadeInUp">
+                            Choose your design experience — transparent, fixed-price, and fully guided. Every kit includes clearly defined deliverables, so you always know what you're getting (and paying for).
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="kits-container">
+                    <div class="kit-card wow animate__animated animate__fadeInUp">
+                        <div class="kit-badge">For Smart Makeovers & Rentals</div>
+                        <div class="kit-header">
+                            <div>
+                                <div class="kit-name">SimpleKit</div>
+                                <div class="kit-price">₹150 / sq.ft</div>
+                            </div>
+                        </div>
+                        <p class="kit-description">Perfect for quick transformations or budget revamps without the complexity.</p>
+                        <ul class="kit-features">
+                            <li>2D Layout Plans</li>
+                            <li>Basic Mood Board</li>
+                            <li>1 Design Revision</li>
+                            <li>Material Suggestions</li>
+                        </ul>
+                        <p class="kit-description"><strong>Budget-friendly. Hassle-free. Beautifully simple.</strong></p>
+                        <div class="kit-cta">
+                            <a href="#" class="btn_1">Book SimpleKit</a>
+                        </div>
+                    </div>
+                    
+                    <div class="kit-card wow animate__animated animate__fadeInUp">
+                        <div class="kit-badge">Our Most Popular Choice</div>
+                        <div class="kit-header">
+                            <div>
+                                <div class="kit-name">SignatureKit</div>
+                                <div class="kit-price">₹300 / sq.ft</div>
+                            </div>
+                        </div>
+                        <p class="kit-description">Tailored for homeowners who want premium, detail-oriented designs with complete project guidance.</p>
+                        <ul class="kit-features">
+                            <li>Full 3D Design Package</li>
+                            <li>Detailed Bill of Quantities (BOQ)</li>
+                            <li>2 Design Revisions</li>
+                            <li>Site Guidance (3 Visits)</li>
+                            <li>Vendor Shortlisting</li>
+                        </ul>
+                        <p class="kit-description"><strong>Designed for perfection. Managed for peace of mind.</strong></p>
+                        <div class="kit-cta">
+                            <a href="#" class="btn_1">Book SignatureKit</a>
+                        </div>
+                    </div>
+                    
+                    <div class="kit-card luxe wow animate__animated animate__fadeInUp">
+                        <div class="kit-badge">For Bespoke Luxury Spaces</div>
+                        <div class="kit-header">
+                            <div>
+                                <div class="kit-name">LuxeKit</div>
+                                <div class="kit-price">₹500 / sq.ft</div>
+                            </div>
+                        </div>
+                        <p class="kit-description">When your home deserves nothing less than extraordinary.</p>
+                        <ul class="kit-features">
+                            <li>All SignatureKit Features</li>
+                            <li>Unlimited Revisions</li>
+                            <li>5 Site Visits</li>
+                            <li>Premium Material Curation</li>
+                            <li>Dedicated Project Architect</li>
+                            <li>Custom Detailing</li>
+                        </ul>
+                        <p class="kit-description"><strong>Experience design as a luxury journey.</strong></p>
+                        <div class="kit-cta">
+                            <a href="#" class="btn_1">Book LuxeKit</a>
+                        </div>
+                    </div>
+                    
+                    <div class="kit-card wow animate__animated animate__fadeInUp">
+                        <div class="kit-badge">Full Architecture + Interiors</div>
+                        <div class="kit-header">
+                            <div>
+                                <div class="kit-name">ArchKit</div>
+                                <div class="kit-price">Custom Quote</div>
+                            </div>
+                        </div>
+                        <p class="kit-description">For new constructions or complete transformations — from foundation to finishes.</p>
+                        <ul class="kit-features">
+                            <li>Architectural Drawings</li>
+                            <li>MEP Coordination</li>
+                            <li>Interior Design Package</li>
+                            <li>Site Supervision</li>
+                            <li>Structural Consultations</li>
+                        </ul>
+                        <p class="kit-description"><strong>Your architect-led one-stop design-build solution.</strong></p>
+                        <div class="kit-cta">
+                            <a href="#" class="btn_1">Get ArchKit Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="services">
+            <div class="container-xl">
+                <div class="section_heading">
+                    <div>
+                        <div class="heading_2 wow animate__animated animate__fadeInUp">
+                            Additional <br>
+                            Services
+                        </div>
+                    </div>
+                    <div>
+                        <p class="wow animate__animated animate__fadeInUp">
+                            Beyond design, we offer comprehensive services to ensure your project is executed flawlessly from concept to completion.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card wow animate__animated animate__fadeInUp">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="service-title">Execution Guardian</div>
+                        <p class="service-description">Build what was designed — perfectly. Add our Execution Guardian service to ensure your dream design is delivered exactly as planned.</p>
+                        <p class="service-description"><strong>Think of us as your on-site watchdog — verifying, checking, and ensuring perfection.</strong></p>
+                        <ul class="service-features">
+                            <li><strong>Quality Assurance:</strong> Our architects personally visit your site to confirm materials, finishes, and workmanship match the design.</li>
+                            <li><strong>Cost Control:</strong> Every vendor bill is cross-verified with the approved BOQ — no markups, no surprises.</li>
+                            <li><strong>Timeline Management:</strong> We track weekly progress and resolve potential delays before they become roadblocks.</li>
+                        </ul>
+                        <a href="#" class="btn_1">Learn More About Execution Guardian</a>
+                    </div>
+                    
+                    <div class="service-card wow animate__animated animate__fadeInUp">
+                        <div class="service-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="service-title">NRI Guardian Service</div>
+                        <p class="service-description">Building in India while abroad? We've got you covered. We act as your trusted local representative — managing vendors, quality, and payments with total transparency.</p>
+                        <ul class="service-features">
+                            <li><strong>Weekly Video Reports</strong> — HD site walkthroughs</li>
+                            <li><strong>Vendor Vetting</strong> — Background & reference checks</li>
+                            <li><strong>Payment Safeguards</strong> — We verify completion before you pay</li>
+                        </ul>
+                        <p class="service-description"><strong>Your project, your pace — perfectly managed from miles away.</strong></p>
+                        <a href="#" class="btn_1">Explore NRI Guardian</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="process" class="process">
+            <div class="container-xl">
+                <div class="section_heading">
+                    <div>
+                        <p class="wow animate__animated animate__fadeInUp">
+                            Our process is designed to be simple, transparent, and client-friendly. From concept to completion — you're always in control.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#" class="btn_1">Take Style Quiz</a>
+                            <a href="#" class="btn_1">Book Consultation</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading_2 wow animate__animated animate__fadeInUp">
+                            How Harlfae <br>
+                            Works
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-steps">
+                    <div class="process-step wow animate__animated animate__fadeInUp">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Style Quiz</div>
+                        <p class="step-description">Take a quick 5-minute quiz so we understand your design taste and goals.</p>
+                    </div>
+                    
+                    <div class="process-step wow animate__animated animate__fadeInUp">
+                        <div class="step-number">2</div>
+                        <div class="step-title">₹1,000 Consultation</div>
+                        <p class="step-description">Meet your architect online or onsite — the amount is fully credited to your project.</p>
+                    </div>
+                    
+                    <div class="process-step wow animate__animated animate__fadeInUp">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Design Phase</div>
+                        <p class="step-description">We co-create concepts, floor plans, and visuals — with total cost transparency.</p>
+                    </div>
+                    
+                    <div class="process-step wow animate__animated animate__fadeInUp">
+                        <div class="step-number">4</div>
+                        <div class="step-title">Vendor Selection</div>
+                        <p class="step-description">Pick from our vetted vendors or bring your trusted ones — your choice.</p>
+                    </div>
+                    
+                    <div class="process-step wow animate__animated animate__fadeInUp">
+                        <div class="step-number">5</div>
+                        <div class="step-title">Execution</div>
+                        <p class="step-description">Build confidently with optional Guardian Oversight for quality and cost control.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta">
+            <div class="container-xl">
+                <div class="heading_2 wow animate__animated animate__fadeInUp">
+                    Ready to Start Your Project?
+                </div>
+                <p class="wow animate__animated animate__fadeInUp">Your dream space is just one step away. Take the quiz, get your personalized package, and start your architectural journey with Harlfae.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn_1">Take Style Quiz</a>
+                    <a href="#" class="btn_1">Book a Free Consultation Call</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about">
+            <div class="container-xl">
+                <div class="section_heading">
+                    <div>
+                        <div class="heading_2 wow animate__animated animate__fadeInUp">
+                            About <br>
+                            Harlfae
+                        </div>
+                    </div>
+                    <div>
+                        <p class="wow animate__animated animate__fadeInUp">
+                            We're revolutionizing the architecture and interior design experience with 100% transparency, cost clarity, and client-first services. Our architects, engineers, and project managers bring your vision to life — beautifully and efficiently.
+                        </p>
+                        <p class="wow animate__animated animate__fadeInUp" style="margin-top: 2rem; font-style: italic;">
+                            Design honestly. Build smartly. Live beautifully.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+    <footer class="elegant-footer">
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <!-- Brand Column -->
+                <div class="footer-column brand-column">
+                    <div class="footer-logo">
+                        <h3>HARLFAE</h3>
+                        <div class="logo-divider"></div>
+                    </div>
+                    <p class="brand-tagline">
+                        Revolutionizing architecture and interiors with 100% transparency and client-first services.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#case-studies">Case Studies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Column -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#design-only">Design-Only</a></li>
+                        <li><a href="#execution">Execution Guardian</a></li>
+                        <li><a href="#premium">Premium Combo</a></li>
+                        <li><a href="#visualization">3D Visualization</a></li>
+                        <li><a href="#interior">Interior Design</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-column contact-column">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919876543210">+91 98765 43210</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:hello@harlfae.com">hello@harlfae.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Design Street,<br>Mumbai, Maharashtra 400001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="bottom-content">
+                    <div class="copyright">
+                        © 2024 Harlfae Architects. All rights reserved.
+                    </div>
+                    <div class="legal-links">
+                        <a href="/privacy">Privacy Policy</a>
+                        <span class="separator">|</span>
+                        <a href="/terms">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+<script src="./js/service.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    </body>
+</html>
+    
+    
